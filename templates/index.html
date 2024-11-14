@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="form-container">
+        <!-- Top image -->
+        <img src="{{ url_for('static', filename='bdlogo.png') }}" alt="Diabetes Icon">
+        
+        <h1>Diabetes Prediction</h1>
+        
+        <form action="/predict" method="POST">
+            <div class="container">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="container">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="container">
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone" required>
+            </div>
+            
+            <div class="container">
+                <label for="pregnancies">Pregnancies (0 - 20):</label>
+                <input type="number" id="pregnancies" name="pregnancies" required min="0" max="20" placeholder="Enter 0 - 20">
+            </div>
+            
+            <div class="container">
+                <label for="glucose">Glucose (50 - 200 mg/dL):</label>
+                <input type="number" id="glucose" name="glucose" required min="50" max="200" placeholder="Enter 50 - 200">
+            </div>
+            
+            <div class="container">
+                <label for="blood_pressure">Blood Pressure (50 - 120 mm Hg):</label>
+                <input type="number" id="blood_pressure" name="blood_pressure" required min="50" max="120" placeholder="Enter 50 - 120">
+            </div>
+            
+            <div class="container">
+                <label for="skin_thickness">Skin Thickness (0 - 100 mm):</label>
+                <input type="number" id="skin_thickness" name="skin_thickness" required min="0" max="100" placeholder="Enter 0 - 100">
+            </div>
+            
+            <div class="container">
+                <label for="insulin">Insulin (0 - 400 µU/mL):</label>
+                <input type="number" id="insulin" name="insulin" required min="0" max="400" placeholder="Enter 0 - 400">
+            </div>
+            
+            <div class="container">
+                <label for="bmi">BMI (8 - 70):</label>
+                <input type="number" id="bmi" name="bmi" required min="10" max="70" placeholder="Enter 10 - 70">
+            </div>
+            
+            <div class="container">
+                <label for="diabetes_pedigree_function">Diabetes Pedigree Function (0.0 - 2.5):</label>
+                <input type="number" step="0.01" id="diabetes_pedigree_function" name="diabetes_pedigree_function" required min="0.0" max="2.5" placeholder="Enter 0.0 - 2.5">
+            </div>
+            
+            <div class="container">
+                <label for="age">Age (1 - 100 years):</label>
+                <input type="number" id="age" name="age" required min="21" max="100" placeholder="Enter 21 - 100">
+            </div>
+            
+            <button type="submit">Submit</button>
+        </form>
+        
+        {% if prediction %}
+            <h2>Prediction: {{ prediction }}</h2>
+        {% endif %}
+    </div>
+</body>
+</html>
+

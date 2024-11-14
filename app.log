@@ -1,0 +1,42 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.2:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 641-152-738
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.17.0.2:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 289-335-990
+INFO:werkzeug:172.17.0.1 - - [12/Nov/2024 14:54:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [12/Nov/2024 14:54:08] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [12/Nov/2024 14:54:08] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [12/Nov/2024 14:54:08] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [12/Nov/2024 14:54:08] "GET /static/bdlogo.png HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [12/Nov/2024 14:54:11] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [12/Nov/2024 14:54:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.17.0.1 - - [12/Nov/2024 14:54:12] "HEAD / HTTP/1.1" 200 -
+INFO:root:User Data: {'name': 'Shorouk', 'email': 'shoroukadel@student.aast.edu', 'phone': '01003222439', 'result': 'High Risk'}
+INFO:werkzeug:172.17.0.1 - - [12/Nov/2024 14:54:53] "[32mPOST /predict HTTP/1.1[0m" 302 -
+INFO:werkzeug:172.17.0.1 - - [12/Nov/2024 14:54:53] "GET /?prediction=High+Risk HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [12/Nov/2024 14:54:53] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [12/Nov/2024 14:54:53] "GET /static/bdlogo.png HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [12/Nov/2024 14:54:54] "HEAD /?prediction=High+Risk HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [12/Nov/2024 14:54:54] "HEAD /?prediction=High+Risk HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [12/Nov/2024 14:54:54] "HEAD /?prediction=High+Risk HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [12/Nov/2024 14:54:54] "HEAD /?prediction=High+Risk HTTP/1.1" 200 -
+INFO:root:User Data: {'name': 'Shorouk', 'email': 'shoroukadel@student.aast.edu', 'phone': '01003222439', 'result': 'Low Risk'}
+INFO:werkzeug:172.17.0.1 - - [12/Nov/2024 14:55:26] "[32mPOST /predict HTTP/1.1[0m" 302 -
+INFO:werkzeug:172.17.0.1 - - [12/Nov/2024 14:55:26] "GET /?prediction=Low+Risk HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [12/Nov/2024 14:55:26] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [12/Nov/2024 14:55:26] "GET /static/bdlogo.png HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [12/Nov/2024 14:55:27] "HEAD /?prediction=Low+Risk HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [12/Nov/2024 14:55:27] "HEAD /?prediction=Low+Risk HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [12/Nov/2024 14:55:27] "HEAD /?prediction=Low+Risk HTTP/1.1" 200 -
+INFO:werkzeug:172.17.0.1 - - [12/Nov/2024 14:55:27] "HEAD /?prediction=Low+Risk HTTP/1.1" 200 -
