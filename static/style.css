@@ -45,7 +45,7 @@ form label {
     color: #555;
     margin: 10px 0 5px;
     font-size: 40px;
-    width: 40%;
+    width: 45%;
 }
 
 form input {
@@ -54,7 +54,7 @@ form input {
     border: 1px solid #ddd;
     border-radius: 10 px;
     font-size: 30px;
-    width: 40%;
+    width: 45%;
 }
 
 form button {
