@@ -1,0 +1,257 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 145-074-363
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:22:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:23:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:23:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:23:01] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:23:01] "GET /static/bdlogo.png HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:23:02] "GET /static/bdlogo.png HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:23:02] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:23:02] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:23:02] "GET /static/bdlogo.png HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:23:03] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:23:05] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:23:05] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:23:05] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:23:19] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:23:23] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:24:20] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:24:21] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:24:21] "[31m[1mHEAD /predict HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:24:22] "[31m[1mHEAD /predict HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:24:22] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:24:23] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=K3eQvLR6UdnWDM0QhwDr HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:24:24] "[31m[1mHEAD /predict HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:24:24] "GET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:24:25] "[31m[1mHEAD /predict HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:24:25] "[31m[1mHEAD /predict HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:31:10] "[31m[1mHEAD /predict HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:31:10] "[31m[1mHEAD /predict HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:31:11] "[31m[1mHEAD /predict HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:31:22] "[31m[1mHEAD /predict HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:31:23] "[31m[1mHEAD /predict HTTP/1.1[0m" 405 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 501-864-350
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:53:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:53:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:53:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:53:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:53:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:54:03] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:54:03] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:54:05] "GET /static/bdlogo.png HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:54:05] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:54:05] "GET /static/bdlogo.png HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:54:06] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:54:07] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:54:07] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:54:07] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:54:07] "GET /static/bdlogo.png HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:54:07] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:54:08] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:54:08] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:54:09] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:54:15] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:54:32] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:54:33] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:56:04] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:56:16] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:56:20] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:56:20] "[31m[1mHEAD /predict HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:56:20] "[31m[1mHEAD /predict HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:56:21] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:56:21] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:56:21] "[31m[1mHEAD /predict HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:56:21] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=VO92mdZUUUyKsiWuNCvZ HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:56:23] "[31m[1mHEAD /predict HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 17:56:24] "[31m[1mHEAD /predict HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:01:51] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:01:51] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:01:51] "GET /static/bdlogo.png HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:01:51] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:01:51] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:01:51] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:01:54] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:01:55] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:01:57] "[31m[1mHEAD /predict HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:03:04] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:03:05] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:03:05] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:03:05] "[31m[1mHEAD /predict HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:03:05] "[31m[1mHEAD /predict HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:03:05] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png&s=VO92mdZUUUyKsiWuNCvZ HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:03:10] "[31m[1mHEAD /predict HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:03:11] "[36mGET /predict?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:03:11] "[31m[1mHEAD /predict HTTP/1.1[0m" 405 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 292-363-918
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:55:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:55:01] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:55:02] "GET /static/bdlogo.png HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:55:02] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:55:03] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:55:10] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:55:10] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:55:23] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:55:46] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:55:46] "[31m[1mHEAD /predict HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:55:47] "[31m[1mHEAD /predict HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:55:47] "[31m[1mHEAD /predict HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:55:47] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:55:47] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:55:48] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=uGqEcLstfaIRSMuhIVWn HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:55:51] "[31m[1mHEAD /predict HTTP/1.1[0m" 405 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 18:55:51] "[31m[1mHEAD /predict HTTP/1.1[0m" 405 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 101-303-804
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 19:01:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 19:01:29] "GET /static/bdlogo.png HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 19:01:29] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 19:01:30] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 19:01:33] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 19:01:46] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 19:01:47] "HEAD / HTTP/1.1" 200 -
+INFO:root:User Data Logged: {'timestamp': datetime.datetime(2024, 11, 12, 19, 2, 22, 79099), 'name': 'Shorouk Adel', 'email': 'shoroukadel@student.aast.edu', 'phone': '01003222439', 'prediction': 'Low Risk', '_id': ObjectId('6733a63eaa7dc828e60a3dc4')}
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 19:02:24] "[32mPOST /predict HTTP/1.1[0m" 302 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 19:02:25] "GET /?prediction=Low+Risk HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 19:02:31] "GET /static/bdlogo.png HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 19:02:31] "HEAD /?prediction=Low+Risk HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 19:02:31] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 19:02:32] "HEAD /?prediction=Low+Risk HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 19:02:34] "HEAD /?prediction=Low+Risk HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 19:02:35] "HEAD /?prediction=Low+Risk HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 19:04:44] "HEAD /?prediction=Low+Risk HTTP/1.1" 200 -
+INFO:root:User Data Logged: {'timestamp': datetime.datetime(2024, 11, 12, 19, 5, 32, 428573), 'name': 'amira', 'email': 'shoroukadel@student.aast.edu', 'phone': '01564886656', 'prediction': 'Low Risk', '_id': ObjectId('6733a6fcaa7dc828e60a3dc6')}
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 19:05:32] "[32mPOST /predict HTTP/1.1[0m" 302 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 19:05:32] "GET /?prediction=Low+Risk HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 19:05:33] "GET /static/bdlogo.png HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 19:05:33] "HEAD /?prediction=Low+Risk HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 19:05:33] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 19:05:33] "HEAD /?prediction=Low+Risk HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 19:05:35] "HEAD /?prediction=Low+Risk HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 19:05:35] "HEAD /?prediction=Low+Risk HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 19:05:41] "HEAD /?prediction=Low+Risk HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [12/Nov/2024 19:06:04] "HEAD /?prediction=Low+Risk HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 122-761-619
+INFO:werkzeug:172.18.0.1 - - [13/Nov/2024 20:46:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [13/Nov/2024 20:46:31] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [13/Nov/2024 20:46:31] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [13/Nov/2024 20:46:31] "GET /static/bdlogo.png HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [13/Nov/2024 20:46:33] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [13/Nov/2024 20:46:47] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [13/Nov/2024 20:46:49] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [13/Nov/2024 20:46:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:User Data Logged: {'timestamp': datetime.datetime(2024, 11, 13, 20, 47, 25, 479627), 'name': 'ahmed', 'email': 'ahmed@gmail.com', 'phone': '56465454', 'prediction': 'High Risk', '_id': ObjectId('6735105dfa1dc7530f7c074d')}
+INFO:werkzeug:172.18.0.1 - - [13/Nov/2024 20:47:27] "[32mPOST /predict HTTP/1.1[0m" 302 -
+INFO:werkzeug:172.18.0.1 - - [13/Nov/2024 20:47:27] "GET /?prediction=High+Risk HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [13/Nov/2024 20:47:28] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [13/Nov/2024 20:47:28] "GET /static/bdlogo.png HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [13/Nov/2024 20:47:28] "HEAD /?prediction=High+Risk HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [13/Nov/2024 20:47:28] "HEAD /?prediction=High+Risk HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [13/Nov/2024 20:47:30] "HEAD /?prediction=High+Risk HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [13/Nov/2024 20:47:31] "HEAD /?prediction=High+Risk HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 909-375-126
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:03:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:03:21] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:03:23] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:03:23] "GET /static/bdlogo.png HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:03:33] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:04:14] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:04:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:04:22] "HEAD / HTTP/1.1" 200 -
+INFO:root:User Data Logged: {'timestamp': datetime.datetime(2024, 11, 14, 15, 8, 4, 97697), 'name': 'Shorouk', 'email': 'shoroukadel@student.aast.edu', 'phone': '01003222439', 'prediction': 'High Risk', '_id': ObjectId('67361254d10ce6a47dd1ed9c')}
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:08:05] "[32mPOST /predict HTTP/1.1[0m" 302 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:08:05] "GET /?prediction=High+Risk HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:08:05] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:08:05] "GET /static/bdlogo.png HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:08:06] "HEAD /?prediction=High+Risk HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:08:06] "HEAD /?prediction=High+Risk HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:08:08] "HEAD /?prediction=High+Risk HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:08:09] "HEAD /?prediction=High+Risk HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 909-375-126
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:12:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:12:41] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:12:41] "GET /static/bdlogo.png HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:12:41] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:12:41] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:12:45] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:12:46] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:12:48] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:12:55] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:15:32] "HEAD /?prediction=High+Risk HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 105-477-799
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:24:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:24:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:24:38] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:24:38] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:24:38] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:24:38] "GET /static/bdlogo.png HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:24:42] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:24:43] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.2:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 120-006-518
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:30:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:30:00] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:30:00] "GET /static/bdlogo.png HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:30:00] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:30:00] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:30:04] "HEAD / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.1 - - [14/Nov/2024 15:30:05] "HEAD / HTTP/1.1" 200 -

@@ -35,7 +35,7 @@ app = Flask(__name__)
 
 # Set up logging
 # Use the '/app/logs' directory which will be linked to the volume inside the container
-log_file = os.path.join('/app/logs', 'app.log')
+log_file = os.path.join('/logs', 'app.log')
 logging.basicConfig(filename=log_file, level=logging.INFO)
 
 # Load the trained model
